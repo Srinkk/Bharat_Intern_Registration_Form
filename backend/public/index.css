@@ -1,0 +1,94 @@
+*{
+    box-sizing: content-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bg_img.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-container {
+    border: 1px solid rgba(red, green, blue, alpha);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height : 85vh;
+    width : 500px;
+    padding: 30px;
+    margin: 10px;
+    backdrop-filter: blur(10px);   
+}
+.form-head {
+    color: white;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+/* .form-image {
+    width : 400px;
+    height : 370px;
+    align-self: flex-end;
+    position: relative;
+    left : 350px;
+    top : -60px;
+
+}
+form {
+    height : 100vh;
+} */
+.form-body {
+    margin: 20px;
+    width : 350px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.form-label {
+   margin-top:20px;
+    
+}
+.form-label b h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.form-control {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+}
+.last-field{
+    margin-top: 10px;
+    align-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.f_password{
+    position: relative;
+    left : 130px;
+    color: white;  
+}
+
+.register_button {
+    width : 87px;
+    height: 35px;
+    border-radius: 7px;
+    box-shadow: 2px;
+    border-style: none;
+    padding: 5px;
+    margin-top : 15px;
+    display: inline-block;
+    align-self: center;
+    background-color: rgb(9, 25, 30);
+    color: white
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+}
